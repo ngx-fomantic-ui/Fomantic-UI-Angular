@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-fomantic-ui": [
+        "dist/ngx-fomantic-ui"
+      ],
+      "ngx-fomantic-ui/*": [
+        "dist/ngx-fomantic-ui/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

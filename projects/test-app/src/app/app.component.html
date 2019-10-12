@@ -1,0 +1,137 @@
+<div class="ui segment">
+    <h4>Standard</h4>
+    <fui-accordion [closeOthers]="false" [activeIds]="'openMeFirst'" (panelChange)="callback($event)">
+        <fui-accordion-panel [id]="'openMeFirst'">
+            <ng-template fuiAccordionTitle>
+                Intially Expanded Panel
+            </ng-template>
+            <ng-template fuiAccordionContent>
+                <p>Using <code>[id]</code> and <code>[activeIds]</code> sets the panel to be expanded.</p>
+                <p>Use <code>(panelChange)</code> to catch when the panel is toggled.</p>
+            </ng-template>
+        </fui-accordion-panel>
+        <fui-accordion-panel [disabled]="true">
+            <ng-template fuiAccordionTitle>
+                Disabled Panel
+            </ng-template>
+            <ng-template fuiAccordionContent>
+                <p>Setting <code>[disabled]</code> to <code>true</code> stops the user from being able to toggle the
+                    panel.</p>
+            </ng-template>
+        </fui-accordion-panel>
+        <fui-accordion-panel>
+            <ng-template fuiAccordionTitle>
+                Final Panel
+            </ng-template>
+            <ng-template fuiAccordionContent>
+                <p>This is the final panel.</p>
+                <p>Opening this one doesn't affect the others as <code>[closeOthers]</code> is set to <code>false</code>.
+                </p>
+            </ng-template>
+        </fui-accordion-panel>
+    </fui-accordion>
+</div>
+
+
+<div class="ui segment">
+    <h4>Styled</h4>
+    <fui-accordion [closeOthers]="false" class="styled" [activeIds]="'openMeFirst'" (panelChange)="callback($event)">
+        <fui-accordion-panel [id]="'openMeFirst'">
+            <ng-template fuiAccordionTitle>
+                Intially Expanded Panel
+            </ng-template>
+            <ng-template fuiAccordionContent>
+                <p>Using <code>[id]</code> and <code>[activeIds]</code> sets the panel to be expanded.</p>
+                <p>Use <code>(panelChange)</code> to catch when the panel is toggled.</p>
+            </ng-template>
+        </fui-accordion-panel>
+        <fui-accordion-panel [disabled]="true">
+            <ng-template fuiAccordionTitle>
+                Disabled Panel
+            </ng-template>
+            <ng-template fuiAccordionContent>
+                <p>Setting <code>[disabled]</code> to <code>true</code> stops the user from being able to toggle the
+                    panel.</p>
+            </ng-template>
+        </fui-accordion-panel>
+        <fui-accordion-panel>
+            <ng-template fuiAccordionTitle>
+                Final Panel
+            </ng-template>
+            <ng-template fuiAccordionContent>
+                <p>This is the final panel.</p>
+                <p>Opening this one doesn't affect the others as <code>[closeOthers]</code> is set to <code>false</code>.
+                </p>
+            </ng-template>
+        </fui-accordion-panel>
+    </fui-accordion>
+</div>
+
+<div class="ui segment">
+    <h4>Fluid Styled</h4>
+    <fui-accordion [closeOthers]="false" class="fluid styled" [activeIds]="'openMeFirst'"
+                   (panelChange)="callback($event)">
+        <fui-accordion-panel [id]="'openMeFirst'">
+            <ng-template fuiAccordionTitle>
+                Intially Expanded Panel
+            </ng-template>
+            <ng-template fuiAccordionContent>
+                <p>Using <code>[id]</code> and <code>[activeIds]</code> sets the panel to be expanded.</p>
+                <p>Use <code>(panelChange)</code> to catch when the panel is toggled.</p>
+            </ng-template>
+        </fui-accordion-panel>
+        <fui-accordion-panel [disabled]="true">
+            <ng-template fuiAccordionTitle>
+                Disabled Panel
+            </ng-template>
+            <ng-template fuiAccordionContent>
+                <p>Setting <code>[disabled]</code> to <code>true</code> stops the user from being able to toggle the
+                    panel.</p>
+            </ng-template>
+        </fui-accordion-panel>
+        <fui-accordion-panel>
+            <ng-template fuiAccordionTitle>
+                Final Panel
+            </ng-template>
+            <ng-template fuiAccordionContent>
+                <p>This is the final panel.</p>
+                <p>Opening this one doesn't affect the others as <code>[closeOthers]</code> is set to <code>false</code>.
+                </p>
+            </ng-template>
+        </fui-accordion-panel>
+    </fui-accordion>
+</div>
+
+<div class="ui inverted segment">
+    <h4>Inverted</h4>
+    <fui-accordion [closeOthers]="false" class="inverted" [activeIds]="'openMeFirst'" (panelChange)="callback($event)">
+        <fui-accordion-panel [id]="'openMeFirst'">
+            <ng-template fuiAccordionTitle>
+                Intially Expanded Panel
+            </ng-template>
+            <ng-template fuiAccordionContent>
+                <p>Using <code>[id]</code> and <code>[activeIds]</code> sets the panel to be expanded.</p>
+                <p>Use <code>(panelChange)</code> to catch when the panel is toggled.</p>
+            </ng-template>
+        </fui-accordion-panel>
+        <fui-accordion-panel [disabled]="true">
+            <ng-template fuiAccordionTitle>
+                Disabled Panel
+            </ng-template>
+            <ng-template fuiAccordionContent>
+                <p>Setting <code>[disabled]</code> to <code>true</code> stops the user from being able to toggle the
+                    panel.</p>
+            </ng-template>
+        </fui-accordion-panel>
+        <fui-accordion-panel>
+            <ng-template fuiAccordionTitle>
+                Final Panel
+            </ng-template>
+            <ng-template fuiAccordionContent>
+                <p>This is the final panel.</p>
+                <p>Opening this one doesn't affect the others as <code>[closeOthers]</code> is set to <code>false</code>.
+                </p>
+            </ng-template>
+        </fui-accordion-panel>
+    </fui-accordion>
+</div>
